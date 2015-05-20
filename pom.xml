@@ -11,7 +11,7 @@
 	</parent>
 	<groupId>com.answerconsulting</groupId>
 	<artifactId>m2-releasecolumn</artifactId>
-	<version>1.0.0</version>
+	<version>1.0.1-SNAPSHOT</version>
 	<packaging>hpi</packaging>
 
 	<name>Maven Release Button Column Plugin</name>
@@ -35,7 +35,7 @@
 	<scm>
         <connection>scm:git:git@github.com:AJBrindley/${project.artifactId}-plugin.git</connection>
 		<developerConnection>scm:git:git@github.com:AJBrindley/${project.artifactId}-plugin.git</developerConnection>
-        <tag>v1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 	<!-- Assuming you want to host on @jenkinsci:
   <scm>

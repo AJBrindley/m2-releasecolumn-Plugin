@@ -1,0 +1,12 @@
+<?jelly escape-by-default='true'?>
+<j:jelly xmlns:j="jelly:core" xmlns:st="jelly:stapler" xmlns:d="jelly:define" xmlns:l="/lib/layout" xmlns:t="/lib/hudson" xmlns:f="/lib/form" xmlns:i="jelly:fmt">
+    <td>
+        <j:if test="${job.buildable and it.hasReleasePermission(job)}">
+            <a href="${jobBaseUrl}${job.shortUrl}m2release">
+                <img src="${imagesURL}/${subIconSize}/package.png"
+                     title="${%Release}" alt="${%Release}"
+                     border="0"/>
+            </a>
+        </j:if>
+    </td>
+</j:jelly>
